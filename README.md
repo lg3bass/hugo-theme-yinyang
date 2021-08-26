@@ -1,5 +1,7 @@
 # YinYang
 
+lg3bass fork of YinYang theme.  Using this for a personal portfolio.
+
 [YinYang](https://en.wikipedia.org/wiki/Yin_and_yang) is a black-white theme for [Hugo](https://gohugo.io/).
 
 [**Demo**](https://blog.joway.io)

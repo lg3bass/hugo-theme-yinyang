@@ -1,7 +1,8 @@
 /* global */
 
 body {
-  font-family: "Bree Serif", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
 }
@@ -18,7 +19,7 @@ a {
 }
 
 a:hover {
-  font-weight: 600;
+  font-weight: 200;
   text-decoration: underline;
 }
 
@@ -67,14 +68,14 @@ a:hover {
 /* header */
 
 .site-date-catalog {
-  font-size: 2rem;
+  font-size: 24;
 }
 
 .header-title {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 4rem;
+  /*font-weight: bold;*/
   margin-top: 32px;
-  font-family: "Bungee Shade", sans-serif;
+  font-family: "Monoton", sans-serif;
 }
 .header-title a {
   text-decoration: none;
@@ -162,16 +163,25 @@ a:hover {
 }
 
 .post-tags {
+  font-size: 0.6rem;
+  margin: auto;
+  text-align: left;
+
+}
+
+
+.post-tag {
   display: inline;
-  font-weight: 600;
-  padding: 2px 5px;
-  margin-right: 6px;
-  border: #000 2px solid;
-  border-radius: 5px;
+  font-weight: 800;
+  padding: 2px 4px;
+  margin-right: 4px;
+  border: #000 1px dashed;
+  border-radius: 8px;
 }
 
 .post-date {
-  font-weight: 800;
+  font-weight: 400;
+  font-size: 0.7rem;
   font-style: italic;
 }
 

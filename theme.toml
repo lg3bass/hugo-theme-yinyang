@@ -2,7 +2,7 @@ name = "Yinyang"
 license = "MIT"
 licenselink = "https://github.com/joway/hugo-theme-yinyang/blob/master/LICENSE"
 description = "Yinyang theme for Hugo."
-homepage = "https://github.com/joway/hugo-theme-yinyang"
+homepage = "https://github.com/lg3bass/hugo-theme-yinyang.git"
 tags = [
   "blog",
   "minimal",
