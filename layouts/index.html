@@ -17,14 +17,15 @@
 				<div class="row posts-line">
 
 
-					<div class="col-xs-2">
-						<a href="{{ .Params.preview }}" target="_blank">
-							<img src="images/{{.Params.categories}}.png" width="75px">
+					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2">
+						
+						<a href="{{ .Params.preview }}" target="_blank" >
+							<img src="images/{{.Params.categories}}.png" width="75px" class="post-image">
 						</a>
 					</div>
 
 
-					<div class="col-xs-10 posts-title">
+					<div class="col-xs-9 col-sm-10 col-md-10 col-lg-10 posts-title">
 						<div class="col-xs-12">
 							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 						</div>
@@ -36,7 +37,7 @@
 							{{ end }}
 						</div>
 						<div class="col-xs-12 post-date">
-							Last Updated: <time datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">{{ .Date.Format "01/02"}}</time>
+							Last Updated: <time datetime="{{ .Lastmod.Format "2006-01-02 15:04:05 MST" }}">{{ .Lastmod.Format "01/02"}}</time>
 						</div>
 					</div>
 				</div>

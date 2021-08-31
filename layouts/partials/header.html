@@ -10,7 +10,7 @@
 <div class="row end-md center-xs header-items">
   {{ range .Site.Params.socials }}
   <div class="header-item">
-    <a href="{{ .link }}" target="_blank">{{ .name }}</a>
+    <a href="{{ .link }}" target="_blank"><img src="{{ .Site.BaseURL | absLangURL }}images/{{ .icon  }}" height="25"></a>
   </div>
   {{ end }}
 </div>

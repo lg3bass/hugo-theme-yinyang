@@ -72,9 +72,9 @@ a:hover {
 }
 
 .header-title {
-  font-size: 4rem;
+  font-size: 3.6rem;
   /*font-weight: bold;*/
-  margin-top: 32px;
+  margin-top: 24px;
   font-family: "Monoton", sans-serif;
 }
 .header-title a {
@@ -103,6 +103,11 @@ a:hover {
 .lang-switch {
   font-weight: 600;
 }
+
+/* post index list */
+
+
+
 
 /* posts list */
 
@@ -157,6 +162,12 @@ a:hover {
   margin-bottom: 50px;
 }
 
+.post-image {
+	margin: auto;
+	padding-left: 15px;
+	
+}
+
 .post-title {
   font-size: 2rem;
   font-weight: 600;
@@ -165,18 +176,19 @@ a:hover {
 .post-tags {
   font-size: 0.6rem;
   margin: auto;
-  text-align: left;
+  text-align: center;
 
 }
 
 
 .post-tag {
   display: inline;
-  font-weight: 800;
+  font-weight: 600;
   padding: 2px 4px;
-  margin-right: 4px;
+  margin-left: 10px;
+  margin-right: 1px;
   border: #000 1px dashed;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .post-date {
